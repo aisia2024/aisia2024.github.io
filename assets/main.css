@@ -13,7 +13,7 @@
  *   #b8860b; Dark Goldenrod, color for links
  */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Slab:wght@100..900&display=swap');
 
 * {
   border: 0;
@@ -30,7 +30,7 @@ body {
   background-attachment: fixed;
   color: #505050;
   text-align: left;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   margin: 60px auto;
@@ -59,14 +59,22 @@ a:active {
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2 {
   clear: left;
   color: #813c54;
-  margin: 1.5em 0em 1em 0em;
-  font-family: 'Roboto Slab', serif;
+  margin: 1.2em 0em 1em 0em;
+  font-family: "Roboto Slab", serif;
   text-shadow: 1px 1px 2px #d0d0d0;
+}
+
+h3 {
+  clear: left;
+  color: #52739e;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1.2em 0em 1em 0em;
+  font-family: "Roboto Slab", serif;
+  /* text-shadow: 1px 1px 2px #d0d0d0; */
 }
 
 h1 {
@@ -77,9 +85,6 @@ h2 {
   font-size: 2.00em;
 }
 
-h3 {
-  font-size: 1.67em;
-}
 
 h4 {
   font-size: 1.33em;
@@ -87,9 +92,9 @@ h4 {
 
 p {
   list-style: none;
-  margin: 24px auto 24px auto;
+  margin: 12px auto 12px auto;
   padding: 0px;
-  width: 900px;
+  /* width: 900px; */
   text-align: left;
 }
 
@@ -101,23 +106,27 @@ p a {
 
 ul {
   list-style: square;
-  margin: 24px auto 24px auto;
-  padding: 0px;
-  width: 860px;
+  /* margin: 24px auto 24px auto; */
+  /* padding: 0px; */
+  list-style-position: inside;
+  /* width: 860px; */
   text-align: left;
 }
 
 ol {
-  margin: 24px auto 24px auto;
-  padding: 0px;
-  width: 860px;
+  /* margin: 24px auto 24px auto; */
+  /* padding: 0px; */
+  /* width: 860px; */
+  list-style-position: inside;
+
   text-align: left;
 }
 
 ul li {
   list-style: square;
-  margin: 0px auto 0px auto;
-  padding: 0px;
+  /* margin: 0px auto 0px auto; */
+  /* padding: 0px; */
+  list-style-position: inside;
   text-align: left;
 }
 
@@ -161,7 +170,8 @@ td {
 /* Website Banner */
 .banner {
   position: relative;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
+  /* width: 50%; */
 }
 
 .top-left {
@@ -265,7 +275,7 @@ td.title {
   font-size: 1.5em;
   color: #813c54;
   height: 32px;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   text-shadow: 1px 1px 2px #d0d0d0;
 }
 
@@ -276,7 +286,7 @@ td.title-special {
   font-size: 1.67em;
   color: #52739e;
   height: 32px;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   text-shadow: 1px 1px 2px #d0d0d0;
 }
 
