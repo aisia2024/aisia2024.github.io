@@ -38,9 +38,10 @@ We encourage (if possible) authors to upload their code as part of their supplem
   
 
 ### Important Date
-* August 10, 2024	Paper submission deadline
-* August 20, 2024	Notification to authors
-* August 31, 2024	Camera-ready deadline
+* Workshop paper submission deadline： Oct. 15, 2024 
+* Notification to authors: Oct. 27, 2024
+* Camera ready deadline: Oct. 31, 2024.
+* Workshop date: Dec. 01, 2024
 
 **Note: Each paper must be registered and presented on-site by an author/co-author at the conference.**
 
