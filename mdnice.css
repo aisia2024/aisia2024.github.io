@@ -1,0 +1,569 @@
+/* 自定义样式，实时生效，浏览器实时缓存 */
+
+/* 全局属性
+ * 页边距 padding: 30px;
+ * 英文换行 word-break: break-all;
+ */
+
+
+/* 段落，下方未标注标签参数均同此处
+ * 上边距 margin-top: 5px;
+ * 下边距 margin-bottom: 5px;
+ * 行高 line-height: 26px;
+ * 词间距 word-spacing: 3px;
+ * 字间距 letter-spacing: 3px;
+ * 对齐 text-align: left;
+ * 颜色 color: #3e3e3e;
+ * 字体大小 font-size: 16px;
+ * 首行缩进 text-indent: 2em;
+ */
+
+#nice {
+  font-size:  15px;
+  counter-reset: count1 !important;
+  padding:0;
+  text-align: justify;
+  line-height: 180%;
+}
+
+#nice p, ul, ol {
+    /* 注：请在大括号内改写！！！ */
+  text-align: justify;
+  font-size:  15px;
+  padding: 0;
+}
+
+.comment-pic {
+  	color: grey;
+  	text-align: center;
+  	font-size: 13px;
+}
+
+/* 一级标题 */
+#nice h1 {
+  width: 100%; 
+  border-bottom: 2px solid rgb(66,108,180);
+  background-color: rgb(245, 245, 245);
+  height:35px;
+  margin-bottom:15px;
+  margin-top:50px;
+}
+
+#nice h1:before {
+   counter-increment: count1;
+   content: counter(count1);
+  background: rgb(66, 108, 180);
+  color:white;
+  padding:2px 8px;
+  height:20px;
+  font-size: 20px !important;
+}
+
+#nice h1 .content {
+  padding-left:7px;
+  color: rgb(66, 108, 180); 
+  font-size: 20px !important;
+  line-height: 1 !important;
+}
+
+
+
+#nice h1 .prefix {
+  display:none;
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 一级标题后缀 */
+#nice h1 .suffix {
+    /* 注：请在大括号内改写！！！ */
+  
+}
+
+
+#nice .holine {
+	display: inline-block; vertical-align: middle; width: auto; flex: 100 100 0%; align-self: center; height: auto; box-sizing: border-box; visibility: visible;
+  
+}
+
+
+/* 二级标题 */
+#nice h2 {
+    /* 注：请在大括号内改写！！！ */
+  color: rgb(66, 108, 180);
+  /* color: rgb(240, 110, 20); */
+  
+  
+  font-size: 16px !important;
+  margin:10px 0 0 0;
+}
+
+/* 二级标题内容 */
+#nice h2 .content {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 二级标题前缀 */
+#nice h2 .prefix {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 二级标题后缀 */
+#nice h2 .suffix {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 三级标题 */
+
+
+
+#nice h3 {
+    /* 注：请在大括号内改写！！！ */
+  color: rgb(66, 108, 180);
+  /* color: rgba(240, 110, 20, 0.8); */
+  
+  
+  font-size: 14px !important;
+  margin:10px 0 0 0;
+}
+#nice h3 .content {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 三级标题前缀 */
+#nice h3 .prefix {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 三级标题后缀 */
+#nice h3 .suffix {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 无序列表整体样式
+ * list-style-type: square|circle|disc;
+ */
+#nice ul {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 有序列表整体样式
+ * list-style-type: upper-roman|lower-greek|lower-alpha;
+ */
+#nice ol {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 列表内容，不要设置li
+ */
+#nice li section {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 一级引用
+ * 左边缘颜色 border-left-color: black;
+ * 背景色 background: gray;
+ */
+#nice .multiquote-1 {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 一级引用文字 */
+#nice .multiquote-1 p {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 二级引用
+ */
+#nice .multiquote-2 {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 二级引用文字 */
+#nice .multiquote-2 p {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 三级引用
+ */
+#nice .multiquote-3 {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 三级引用文字 */
+#nice .multiquote-3 p {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 链接 
+ * border-bottom: 1px solid #009688;
+ */
+#nice a {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 加粗 */
+#nice strong {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 斜体 */
+#nice em {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 加粗斜体 */
+#nice em strong {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 删除线 */
+#nice del {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 分隔线
+ * 粗细、样式和颜色
+ * border-top: 1px solid #3e3e3e;
+ */
+#nice hr {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 图片
+ * 宽度 width: 80%;
+ * 居中 margin: 0 auto;
+ * 居左 margin: 0 0;
+ */
+#nice img {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 行内代码 */
+#nice p code, #nice li code {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 
+ * 代码块不换行 display: -webkit-box !important;
+ * 代码块换行 display: block;
+ */
+#nice pre code {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/*
+ * 表格内的单元格
+ * 字体大小 font-size: 16px;
+ * 边框 border: 1px solid #ccc;
+ * 内边距 padding: 5px 10px;
+ */
+#nice table tr th,
+#nice table tr td {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 
+ * 某一列表格列宽控制
+ * n 可以修改为具体数字，不修改时表示所有列
+ * 最小列宽 min-width: 85px;
+ */
+#nice table tr th:nth-of-type(n),
+#nice table tr td:nth-of-type(n){
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 脚注文字 */
+#nice .footnote-word {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 脚注上标 */
+#nice .footnote-ref {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* "参考资料"四个字 
+ * 内容 content: "参考资料";
+ */
+#nice .footnotes-sep:before {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 参考资料编号 */
+#nice .footnote-num {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 参考资料文字 */
+#nice .footnote-item p { 
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 参考资料解释 */
+#nice .footnote-item p em {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 行间公式
+ * 最大宽度 max-width: 300% !important;
+ */
+#nice .block-equation svg {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 行内公式
+ */
+#nice .inline-equation svg {  
+    /* 注：请在大括号内改写！！！ */
+}
+
+#nice .metablock-2 {
+ display: inline-block; width: 85%; vertical-align: top; background-color: rgba(66, 108, 180, 0.1); flex: 0 0 auto; height: auto; padding: 22px 0px; align-self: flex-start; box-sizing: border-box; visibility: visible;
+}
+
+#nice .metablock-1 {
+  display: inline-block; width: 85%; vertical-align: top; flex: 0 0 auto; align-self: flex-start; height: auto; border-style: none; border-width: 0px; border-left-color: rgb(198, 198, 198); margin: 0px 0px 0px 10px; padding: 19px; background-color: rgb(255, 255, 255); box-sizing: border-box; visibility: visible;align-content
+}
+
+#nice .metablock-3 {
+display: inline-block; width: 85%; vertical-align: top; background-color: rgba(66, 108, 180, 0.1); flex: 0 0 auto; height: auto; padding: 22px 0px; align-self: flex-start; box-sizing: border-box; visibility: visible;
+}
+
+
+
+
+/* 容器块1 */
+#nice .block-1 {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 容器块2 */
+#nice .block-2 {
+    text-align: center;justify-content: center;margin: 10px 0%;display: flex;flex-flow: row nowrap;box-sizing: border-box;
+	background:rgba(0,0,0,0) !important;
+}
+
+
+/* 分列总体布局 */
+#nice .column {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 分列左边布局 */
+#nice .column .column-left {
+    /* 注：请在大括号内改写！！！ */
+}
+
+/* 分列右边布局 */
+#nice .column .column-right {
+    /* 注：请在大括号内改写！！！ */
+}
+
+
+#nice .cls1 {
+  text-align: left;
+  transform: translate3d(18px, 0px, 0px);
+  margin: 10px 0% 0px;
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls2 {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: top;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px 0px 0px 2px;
+  border-color: rgb(66, 108, 180) rgb(62, 62, 62) rgb(62, 62, 62) rgb(66, 108, 180);
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls3 {
+  float: left;
+  line-height: 0;
+  width: 0px;
+  vertical-align: top;
+  visibility: visible;
+}
+
+#nice .cls4 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: row nowrap;
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls5 {
+  display: inline-block;
+  width: 85%;
+  vertical-align: top;
+  background-color: rgba(66, 108, 180, 0.1);
+  flex: 0 0 auto;
+  height: auto;
+  padding: 22px 0px;
+  align-self: flex-start;
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls6 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  transform: translate3d(-4px, 0px, 0px);
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls7 {
+  display: inline-block;
+  width: 85%;
+  vertical-align: top;
+  flex: 0 0 auto;
+  align-self: flex-start;
+  height: auto;
+  border-style: none;
+  border-width: 0px;
+  border-left-color: rgb(198, 198, 198);
+  margin: 0px 0px 0px 10px;
+  padding: 19px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls8 {
+  margin: 0px 0% 0px;
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls9 {
+  text-align: justify;
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls10 {
+  white-space: normal;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls11 {
+  color: rgb(66, 108, 180);
+  /* color: rgba(240, 110, 20, 0.8); */
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls12 {
+  transform: rotateZ(180deg);
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls13 {
+  text-align: left;
+  margin: 0px 0% 10px;
+  transform: translate3d(19px, 0px, 0px);
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls14 {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: top;
+  overflow: hidden;
+  border: solid;
+  border-width: 2px 0px 0px 2px;
+  border-color: rgb(66, 108, 180) rgb(62, 62, 62) rgb(62, 62, 62) rgb(66, 108, 180);
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+
+#nice .cls15 {
+  margin: 10px 0% 0px;
+  text-align: left;
+  justify-content: flex-start;
+  display: flex;
+  flex-flow: row nowrap;
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls16 {
+  display: inline-block;
+  width: auto;
+  vertical-align: bottom;
+  border-style: solid solid none;
+  border-width: 1px;
+  border-color: rgb(55, 113, 187);
+  min-width: 10%;
+  max-width: 100%;
+  flex: 0 0 auto;
+  height: auto;
+  padding: 0px 10px;
+  align-self: flex-end;
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls17 {
+  font-size: 12px;
+  color: rgba(55, 113, 187, 0.4);
+  text-align: justify;
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls18 {
+  white-space: normal;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+#nice .cls19 {
+  font-weight: bold;
+}
+#nice .cls20 {
+  font-weight: bold;
+  color: red;
+}
+
+#nice .cls21 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#nice .bio-pic {
+  margin-top:30px;
+  margin-bottom:20px;
+}
+
+
+
+.block-3 {
+   margin: 0px 0%; box-sizing: border-box; visibility: visible;
+  background: rgba(0,0,0,0) !important;
+  padding:0 !important;
+  margin:5px 0 0px 0 !important;
+}
+
+.block-3-inner {
+  color: rgb(66, 108, 180); height: 1px; box-sizing: border-box; visibility: visible; 
+  border-bottom:2px dashed ;
+}
+  
